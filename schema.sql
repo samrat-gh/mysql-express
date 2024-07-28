@@ -1,6 +1,8 @@
 CREATE DATABASE notes_app;
 USE notes_app;
 
+
+-- Use this code to create a table on phpmyadmin
 CREATE TABLE notes (
   id integer PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(255) NOT NULL,
